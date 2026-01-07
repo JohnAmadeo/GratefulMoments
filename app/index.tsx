@@ -1,22 +1,11 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { Redirect } from 'expo-router';
 
+/**
+ * Root index redirects to the moments tab
+ *
+ * This ensures that when the app launches, users are immediately
+ * taken to the main moments list screen within the tab navigator.
+ */
 export default function Index() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>GratefulMoments</Text>
-    </View>
-  );
+  return <Redirect href="/(tabs)/moments" />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-  },
-  text: {
-    fontSize: 20,
-    fontWeight: '600',
-  },
-});
