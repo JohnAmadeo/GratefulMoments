@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "GratefulMoments",
+    "slug": "gratefulmoments",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gratefulmoments.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to attach images to your grateful moments."
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "react-native-reanimated/plugin"
+    ],
+    "scheme": "gratefulmoments",
+    "newArchEnabled": true
+  }
+}
