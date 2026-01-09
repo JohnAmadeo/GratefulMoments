@@ -3,7 +3,9 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "esnext",
-    "lib": ["es2017"],
+    "lib": [
+      "es2017"
+    ],
     "jsx": "react-native",
     "strict": true,
     "strictNullChecks": true,
@@ -18,14 +20,14 @@
     "isolatedModules": true,
     "noEmit": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules"
