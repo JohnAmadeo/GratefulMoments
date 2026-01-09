@@ -22,8 +22,7 @@
       }
     },
     "plugins": [
-      "expo-router",
-      "react-native-reanimated/plugin"
+      "expo-router"
     ],
     "scheme": "gratefulmoments",
     "newArchEnabled": true
