@@ -1,0 +1,20 @@
+{
+  "name": "grateful-moments",
+  "version": "0.1.0",
+  "description": "GratefulMoments React Native / Expo App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "grateful-moments"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
